@@ -37,8 +37,6 @@ function App() {
           </p>
         </article>
         <article>
-
-
         </article>
       </div>
     </div>

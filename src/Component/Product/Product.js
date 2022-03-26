@@ -2,17 +2,7 @@ import React from 'react';
 import './Product.css'
 
 const Product = ({ product, handleAddToCart }) => {
-    // const { product, handleAddToCart } = props
-
-    // console.log(props)
     const { name, img, id, price } = product
-    // const { handleAddToCart } = props.handleAddToCart
-
-    // const [cart,setCart]=useState([]) 
-    // const handleAddToCart = () => {
-    //     console.log('clicked')
-    // }
-
     return (
         <div className='product'>
 
@@ -22,7 +12,6 @@ const Product = ({ product, handleAddToCart }) => {
                 <p> <span className='books-name'>Id:</span>{id}</p>
                 <p> <span className='books-name'>Price:$</span>{price}</p>
             </div>
-            {/* onClick={() => handleAddToCart(id)} */}
 
             <button onClick={() => handleAddToCart(product)} className='cart-button' >
                 <svg xmlns="http://www.w3.org/2000/svg" className='cart-icon' viewBox="0 0 20 20" fill="currentColor">

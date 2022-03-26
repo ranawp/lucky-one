@@ -12,9 +12,7 @@
     height: 400px;
      */
 }
-.cart-delete-btn{
-    width: 20px;
-}
+
 .cart-container{
     /* background-color: #dbe8ec;  */
     margin-left: 10px ;
@@ -22,12 +20,12 @@
     border-radius: 15px;
     border: 1px solid rgb(197, 197, 197);
     box-shadow: 2px 5px 5px #888888;
-
-
 }
 .cart-info{
     padding-left: 1rem;
 }
+
+
 .cart-info-btn{
     background-color: #7ac6e2;
     color: white;
@@ -37,6 +35,10 @@
     height: 2rem;
     margin: .3rem;
 }
+.cart-delete-btn{
+    width: 20px;
+}
+
 .selected-Books{
     font-weight: 700;
 }
@@ -44,9 +46,27 @@
     height: 30px;
     width: 30px;
 }
-/* @media screen and (max-width:320px) {
+ @media screen and (max-width:425px) {
     .product-container{
         grid-template-columns: repeat(1,1fr);
         display: block;
     }
-} */
+    .shop-container{
+        display: grid; 
+        /* grid-template-columns: 5fr 1fr; */
+        width: 96%;
+        margin-left: 15px;
+    }
+    /* .cart-container{
+        width: 150px;
+    } */
+    .cart-info-btn{
+        width: 7rem; 
+        height: auto;
+    }
+    
+} 
+
+@media screen {
+    
+}
