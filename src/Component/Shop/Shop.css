@@ -12,10 +12,13 @@
     height: 400px;
      */
 }
+.cart-delete-btn{
+    width: 20px;
+}
 .cart-container{
     /* background-color: #dbe8ec;  */
     margin-left: 10px ;
-    height: 400px;
+    /* height: 400px; */
     border-radius: 15px;
     border: 1px solid rgb(197, 197, 197);
     box-shadow: 2px 5px 5px #888888;
@@ -34,3 +37,16 @@
     height: 2rem;
     margin: .3rem;
 }
+.selected-Books{
+    font-weight: 700;
+}
+.cart-icon{
+    height: 30px;
+    width: 30px;
+}
+/* @media screen and (max-width:320px) {
+    .product-container{
+        grid-template-columns: repeat(1,1fr);
+        display: block;
+    }
+} */
