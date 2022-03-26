@@ -12,7 +12,7 @@ const Product = (props) => {
                 <img src={img} alt="" />
                 <p> <span className='books-name'> Name:</span> {name}</p>
                 <p> <span className='books-name'>Id:</span>{id}</p>
-                <p> <span className='books-name'>Price:</span>{price}</p>
+                <p> <span className='books-name'>Price:$</span>{price}</p>
             </div>
 
             <button className='cart-button'>

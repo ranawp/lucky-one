@@ -2,61 +2,61 @@
   {
     "id": "1",
     "name": "LAGOM",
-    "price": 420,
+    "price": 29,
     "img": "./photos/img1.jpg"
   },
   {
     "id": "2",
     "name": "Little Black Book",
-    "price": 420,
+    "price": 34,
     "img": "./photos/img2.jpg"
   },
   {
     "id": "3",
     "name": "The Sorrows of young weather",
-    "price": 420,
+    "price": 40,
     "img": "./photos/img3.jpg"
   },
   {
     "id": "4",
     "name": "Graphics design",
-    "price": 420,
+    "price": 30,
     "img": "./photos/img4.jpg"
   },
   {
     "id": "5",
     "name": "Your Soul is river",
-    "price": 420,
+    "price": 42,
     "img": "./photos/img5.jpg"
   },
   {
     "id": "6",
     "name": "The Passion Within",
-    "price": 420,
+    "price": 31,
     "img": "./photos/img6.jpg"
   },
   {
     "id": "7",
-    "name": "Pawn King",
-    "price": 420,
+    "name": "Monet",
+    "price": 42,
     "img": "./photos/img7.jpg"
   },
   {
     "id": "8",
     "name": "A Million Two One",
-    "price": 420,
+    "price": 37,
     "img": "./photos/img8.jpg"
   },
   {
     "id": "9",
     "name": "The Gravity Of Us",
-    "price": 420,
+    "price": 65,
     "img": "./photos/img9.jpg"
   },
   {
     "id": "10",
     "name": "Nora Barreit",
-    "price": 420,
+    "price": 42,
     "img": "./photos/img10.jpg"
   }
 ]
