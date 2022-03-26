@@ -7,12 +7,19 @@ const Product = (props) => {
 
     return (
         <div className='product'>
-            <img src={img} alt="" />
-            <h4>{name}</h4>
-            <p>{id}</p>
-            <p>{price}</p>
 
+            <div className='product-info'>
+                <img src={img} alt="" />
+                <p> <span className='books-name'> Name:</span> {name}</p>
+                <p> <span className='books-name'>Id:</span>{id}</p>
+                <p> <span className='books-name'>Price:</span>{price}</p>
+            </div>
+
+            <button className='cart-button'>
+                <p>Add to Cart</p>
+            </button>
         </div>
+
     );
 };
 
